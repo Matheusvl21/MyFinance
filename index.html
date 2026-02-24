@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFinance Lite | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>💰 MyFinance</h2>
+        
+        <div class="balance-box">
+            <span>Saldo Atual</span>
+            <span id="balanceText">R$ 0.00</span>
+        </div>
+
+        <form id="transactionForm">
+            <input type="text" id="desc" placeholder="Ex: Salário ou Aluguel" required>
+            <input type="number" id="amount" placeholder="Valor (ex: 2000 ou -100)" step="0.01" required>
+            <button type="submit" id="addBtn">Adicionar Transação</button>
+        </form>
+
+        <ul id="transactionList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
