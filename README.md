@@ -31,4 +31,4 @@ Para manter o código limpo e organizado, o projeto está dividido em:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/myfinance.git](https://github.com/SEU_USUARIO/myfinance.git)
+   git clone [https://github.com/Matheusvl21/myfinance.git](https://github.com/Matheusvl21/myfinance.git)
